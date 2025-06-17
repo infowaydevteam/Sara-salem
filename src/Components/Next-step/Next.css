@@ -1,0 +1,161 @@
+.abt-container {
+  background-color: #434343;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: clamp(40px, 4vw, 80px) clamp(20px, 2vw, 40px);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.abt-arrow {
+  margin-top: clamp(20px, 2vw, 40px);
+  margin-bottom: clamp(20px, 2vw, 40px);
+}
+
+.abt-arrow img {
+  cursor: pointer;
+}
+
+.abt-content {
+  max-width: clamp(900px, 80vw, 1400px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.abt-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: clamp(20px, 2.5vw, 40px);
+}
+
+.abt-parts {
+  display: flex;
+  justify-content: center;
+  gap: clamp(40px, 5vw, 100px);
+}
+
+.abt-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: clamp(220px, 18vw, 300px);
+}
+
+.abt-jimage {
+  width: clamp(240px, 18vw, 280px);
+  aspect-ratio: 7 / 4;
+  margin-bottom: clamp(12px, 1.5vw, 20px);
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.abt-jimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.abt-topic {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: clamp(6px, 1vw, 8px);
+  line-height: 1.3;
+}
+
+.abt-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: auto;
+  padding: 0 clamp(6px, 1vw, 10px);
+  text-align: center;
+}
+
+.abt-button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-size: clamp(12px, 0.8vw, 14px);
+  letter-spacing: 1px;
+  padding: clamp(6px, 0.8vw, 10px) clamp(12px, 1vw, 20px);
+  margin-top: clamp(16px, 2vw, 24px);
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.abt-button:hover {
+  transform: translateY(-3px);
+  background: white;
+  color: #000;
+}
+
+.homen-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.homen-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.homen-icon {
+  color: white;
+  font-size: 20px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1550px) {
+  .abt-parts {
+    gap:0px 150px;
+  }
+
+  .abt-jimage {
+    width: clamp(200px, 16vw, 260px);
+  }
+  .rights-section.mobile-show{
+    height:350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .abt-parts {
+    flex-wrap: wrap;
+    gap: clamp(20px, 5vw, 60px);
+    width:100%;
+  }
+
+  .abt-title {
+    font-size: 30px;
+  }
+
+  .abt-jimage {
+    width: 300px;
+  }
+
+  .abt-topic {
+    font-size: 25px;
+  }
+
+  .abt-text {
+    font-size: 15px;
+    width:350px;
+  }
+
+  .abt-button {
+    width: 100%;
+  }
+}

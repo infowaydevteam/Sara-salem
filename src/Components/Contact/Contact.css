@@ -1,88 +1,151 @@
 .contact-container {
-    background-color: #434343;
-    color: white;
-    font-family: 'Segoe UI', sans-serif;
-    min-height: 100vh;
-    padding: 60px 40px;
-    text-align: center;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background-color: #434343;
+  color: #f1f1f1;
 }
 
-.contact-arrow {
-    margin-bottom: 40px;
-    text-align: left;
+.press-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.homec-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.homec-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.homeb-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hamburger:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.hamburger svg {
+  color: white;
+  font-size: 20px;
 }
 
 .contact-title {
-    font-size: 60px;
-    font-weight: 600;
-    margin-bottom: 32px;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 5px 0;
 }
 
 .contact-options {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-    margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .contact-options div {
-    font-size: 24px;
-    font-weight: 400;
-    cursor: pointer;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .contact-note {
-    font-size: 16px;
-    line-height: 1.6;
-    color: white;
-    margin-top: 20px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+.justice {
+  font-size: 25px;
 }
 
 .contact-note a {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1550px){
+  .rightc-section.mobile-show{
+    height:350px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .contact-title {
-        font-size: 40px;
-    }
+  .contact-title {
+    font-size: 40px;
+    margin-top: -100px;
+  }
 
-    .contact-options {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .contact-options {
+    flex-direction: column;
+    gap: 2px;
+  }
 
-    .contact-note {
-        text-align: center;
-        font-size: 14px;
-        padding: 0 20px;
-    }
+  .contact-options div {
+    font-size: 20px;
+  }
 
-    .contact-options div {
-        font-size: 20px;
-    }
-}
+  .contact-note {
+    font-size: 14px;
+    padding: 0 10px;
+  }
 
-@media screen and (min-width: 1920px) {
-    .contact-title {
-        font-size: 96px; /* Much larger font size for title */
-    }
+  .press-left {
+    top: 10px;
+    left: 10px;
+  }
 
-    .contact-options {
-        gap: 140px; /* Bigger gap between options */
-    }
+  .homec-button {
+    top: -230px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+  }
 
-    .contact-note {
-        max-width: 1200px; /* Larger max-width for note */
-    }
-
-    .contact-options div {
-        font-size: 36px; /* Increase font size of options */
-    }
+  .hamburger {
+    top: 10px;
+    right: 10px;
+  }
 }
