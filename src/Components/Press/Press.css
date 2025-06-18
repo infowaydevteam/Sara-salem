@@ -112,6 +112,12 @@ img.circles {
   max-width: 600px;
   transform: translateY(-100px);
 }
+@media (max-width: 768px) {
+  .presss-item2 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
 .presss-item {
   display: flex;
@@ -348,7 +354,9 @@ img.circles {
   .image-one {
     width: 180px;
     height: auto; /* preserve aspect ratio */
-    transform: translateY(-20px);
+    transform: translateY(-80px);
+      margin-bottom: -40px;  /* fixes gap */
+
   }
 
   .image-two {
