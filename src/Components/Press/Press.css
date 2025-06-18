@@ -251,6 +251,7 @@ img.circles {
     position: static;
     font-size: 50px;
     margin-bottom: 1rem;
+    padding-top: 10px;
     transform: translateY(-110px);
   }
 
