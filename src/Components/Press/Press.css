@@ -344,3 +344,18 @@ img.circles {
   margin-top: 0; /* Remove space above */
   line-height: 1.4; /* Optional: improve readability */
 }
+@media (max-width: 768px) {
+  .image-one {
+    width: 180px;
+    height: auto; /* preserve aspect ratio */
+    transform: translateY(-20px);
+  }
+
+  .image-two {
+    width: 200px;
+    height: auto;
+    transform: translateY(-40px);
+    margin-top: 40px;
+    margin-bottom: -5px;
+  }
+}
