@@ -102,7 +102,6 @@ img.circles {
 .presss-item1 {
   display: flex;
   flex-direction: column;
-  gap: 6px;
   max-width: 600px;
   transform: translateY(-60px);
 }
@@ -110,7 +109,6 @@ img.circles {
 .presss-item2 {
   display: flex;
   flex-direction: column;
-  gap: 6px;
   max-width: 600px;
   transform: translateY(-100px);
 }
@@ -118,7 +116,6 @@ img.circles {
 .presss-item {
   display: flex;
   flex-direction: column;
-  gap: 6px;
   max-width: 600px;
 }
 
@@ -322,4 +319,28 @@ img.circles {
     text-align: rightt !important;
     width: 100% !important;
   }
+}
+.image-one {
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  transform: translateY(-40px);
+}
+
+.image-two {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  transform: translateY(-80px);
+  margin-top: 80px;
+  margin-bottom: -10px;
+}
+.presss-item img {
+  display: block;
+  margin-bottom: -20px; /* Adjust this as needed */
+}
+
+.presss-description {
+  margin-top: 0; /* Remove space above */
+  line-height: 1.4; /* Optional: improve readability */
 }

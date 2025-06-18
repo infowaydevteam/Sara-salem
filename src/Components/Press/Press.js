@@ -10,6 +10,8 @@ import tablet from '../../images/TheTablet.webp';
 import blitz from '../../images/BlitZ.jpg';
 import Ap from '../../images/Ap-removebg-preview.png';
 import crux from '../../images/crux-removebg-preview.png';
+import ny from '../../images/ny.png';
+import ml from '../../images/ml.png';
 import { Link } from 'react-router-dom';
 import { FaLongArrowAltLeft, FaBars, FaTimes } from 'react-icons/fa';
 
@@ -139,6 +141,23 @@ export default function Press() {
             ROME – An Iraqi-American woman has named Chaldean Catholic Archbishop Bashar Warda in a federal lawsuit in the United States over claims about his personal, political, and business ties to what is essentially the Iraqi mafia.
           </p>
           <a href='https://cruxnow.com/church-in-the-middle-east/2025/03/erbil-archbishop-named-in-federal-lawsuit-targeting-iraqi-mob' className='presss-link'>Learn more →</a>
+        </div>
+           {/* New Media Line article */}
+        <div className='presss-item'>
+          <img src={ml} alt="The Media Line" className="image-one" />
+          <p className='presss-description'>
+            Kurdish-American Faces Trial Orchestrated by Iran-Backed Forces in Iraq
+          </p>
+          <a href='https://themedialine.org/by-region/kurdish-american-faces-trial-orchestrated-by-iran-backed-forces-in-iraq/' className='presss-link'>Learn more →</a>
+        </div>
+
+        {/* New New York Post article */}
+        <div className='presss-item'>
+          <img src={ny} alt="New York Post" className="image-two"/>
+          <p className='presss-description'>
+            Kurdish US citizen claims Iraqi pres Nouri al-Maliki ordered her kidnap and torture: lawsuit
+          </p>
+          <a href='https://nypost.com/2025/05/14/world-news/kurdish-us-citizen-claims-iraqi-pres-nouri-al-maliki-ordered-her-kidnap-and-torture-lawsuit/' className='presss-link'>Learn more →</a>
         </div>
       </div>
       <div className={`rightp-section ${menuOpen ? 'mobilep-show' : ''}`}>
