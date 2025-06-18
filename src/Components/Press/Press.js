@@ -12,6 +12,8 @@ import Ap from '../../images/Ap-removebg-preview.png';
 import crux from '../../images/crux-removebg-preview.png';
 import ny from '../../images/ny.png';
 import ml from '../../images/ml.png';
+import sn from '../../images/sn.jpg';
+
 import { Link } from 'react-router-dom';
 import { FaLongArrowAltLeft, FaBars, FaTimes } from 'react-icons/fa';
 
@@ -159,6 +161,14 @@ export default function Press() {
           </p>
           <a href='https://nypost.com/2025/05/14/world-news/kurdish-us-citizen-claims-iraqi-pres-nouri-al-maliki-ordered-her-kidnap-and-torture-lawsuit/' className='presss-link'>Learn more →</a>
         </div>
+        <div className='presss-item'>
+  <img src={sn} alt="Sky News Australia" className="tablet1" />
+  <p className='presss-description'>
+    Sky News Australia - US property developer claims Iraqi president ordered her kidnap, 43-day torture with beatings and electric cords: lawsuit
+  </p>
+  <a href='https://www.skynews.com.au/world-news/global-affairs/us-property-developer-claims-iraqi-president-ordered-her-kidnap-43day-torture-with-beatings-and-electric-cords-lawsuit/news-story/your-article-link' className='presss-link'>Learn more →</a>
+</div>
+
       </div>
       <div className={`rightp-section ${menuOpen ? 'mobilep-show' : ''}`}>
         <Link to="/about" onClick={() => setMenuOpen(false)}>About Sara</Link>

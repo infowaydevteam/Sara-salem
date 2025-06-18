@@ -139,7 +139,11 @@ img.circles {
   height: 90px;
   width: 150px;
 }
-
+.tablet1 {
+  height: 90px;
+  width: 250px;
+  margin-bottom: 15px;
+}
 .ap {
   height: 200px;
   width: 250px;
