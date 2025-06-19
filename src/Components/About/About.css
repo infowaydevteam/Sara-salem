@@ -101,13 +101,13 @@ body {
 
 .abouts-back h4 {
   margin-top: calc(80vh - 100px);
-  text-align: center;
+  text-align: left;
   position: absolute;
-  font-size: 30px;
   width: 100%;
   max-width: 400px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  transform: none;
+  padding: 0 1rem;
 }
 
 img.abouts-circle {
@@ -162,9 +162,9 @@ img.abouts-circle {
 }
 
 .righta-section a:hover {
-    border-color: #ffffff;
-    color: #ffffff;
-  }
+  border-color: #ffffff;
+  color: #ffffff;
+}
 
 .righta-section a {
   display: block;
@@ -180,7 +180,6 @@ img.abouts-circle {
 
 @media screen and (max-width: 1550px) {
   .abouts-back h4 {
-    font-size: 24px;
     max-width: 500px;
   }
 
@@ -203,8 +202,8 @@ img.abouts-circle {
     font-size: 16px;
   }
 
-  .righta-section.mobile-show{
-    height:350px;
+  .righta-section.mobile-show {
+    height: 350px;
   }
 }
 
@@ -221,10 +220,9 @@ img.abouts-circle {
     height: auto;
     overflow-x: hidden;
     overflow-y: auto;
-    position: relative; /* Add this */
+    position: relative;
   }
 
-  /* Add this to ensure content can scroll */
   body, html {
     overflow-x: hidden !important;
     overflow-y: auto !important;
@@ -255,10 +253,10 @@ img.abouts-circle {
   .abouts-back h4 {
     position: static;
     margin-top: 0px !important;
-    margin-left: 110%;
-    font-size: 25px;
+    margin-left: 0 !important;
     padding: 0 1rem;
-    height: 30px;
+    height: auto;
+    text-align: left !important;
   }
 
   .press-right {
@@ -276,7 +274,7 @@ img.abouts-circle {
   }
 
   .hamburgera {
-    right:12px !important;
+    right: 12px !important;
   }
 
   .abouts-item p {
@@ -304,13 +302,13 @@ img.abouts-circle {
   }
 
   .righta-section.mobile-show a {
-    text-align: rightt !important;
+    text-align: right !important;
     width: 100% !important;
   }
 
   .hamburger {
     display: block !important;
     color: white !important;
-    align-items:center !important;
+    align-items: center !important;
   }
 }
