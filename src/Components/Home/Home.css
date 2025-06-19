@@ -16,7 +16,7 @@
   top: 90px;
   left: 50%;
   transform: translateX(-50%);
-  width: 31% !important;
+  width: 27% !important;
   height:90% !important;
   height: auto;
   z-index: 1;
@@ -128,7 +128,7 @@
     top: auto !important; /* Remove top positioning */
     left: 50% !important; /* Center horizontally */
     transform: translateX(-50%) !important; /* Center adjustment */
-    width: 75% !important;
+    width: 65% !important;
     height: 55% !important;
     margin-left: 0 !important;
     z-index: 1 !important;
