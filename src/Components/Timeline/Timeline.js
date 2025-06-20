@@ -114,7 +114,6 @@ export default function Timeline() {
         <Link to="/back" onClick={() => setMenuOpen(false)}>Background to Injustice</Link>
         <Link to="/story" onClick={() => setMenuOpen(false)}>The Story</Link>
         <Link to="/timeline" onClick={() => setMenuOpen(false)}>Legal Timeline</Link>
-        <Link to="/next-step" onClick={() => setMenuOpen(false)}>Next Steps</Link>
         <Link to="/press" onClick={() => setMenuOpen(false)}>Press</Link>
         <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
       </div>
