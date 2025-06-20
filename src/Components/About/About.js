@@ -10,6 +10,7 @@ export default function About() {
   
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
+  // Update isMobile state on window resize
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     window.addEventListener('resize', handleResize);
@@ -17,24 +18,24 @@ export default function About() {
   }, []);
 
   return (
-    <div className="about-container">
-      <div className="hamburger-menu" onClick={toggleMenu}>
+    <div className='pressa-container'>
+      <div className="hamburgera" onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
-      <div className="about-heading">
+      <div className='heading'>
         <h4>About Sara</h4>
       </div>
-      <div className="about-left">
-        <Link to="/" className="home-button">
-          <FaLongArrowAltLeft className="home-icon" />
+      <div className='pressa-left'>
+        <Link to='/' className='homea-button'>
+          <FaLongArrowAltLeft className='homea-icon' />
         </Link>
-        <div className="about-image-container">
-          <img src={about} className="about-image" alt="Sara with children" />
+        <div className='abouts-back'>
+          <img src={about} className='abouts-circle' alt='Sara with children' />
           <p>Sara with her children in Washington D.C.</p>
         </div>
       </div>
-      <div className="about-right">
-        <div className="about-content">
+      <div className='pressa-right'>
+        <div className='abouts-item'>
           <p>
             Sara Saleem's story is not just about injustice — it's about resistance in the face of systemic oppression. Her lawsuit lifts the veil on a brutal campaign of harassment, extortion, and violence.
           </p>
@@ -49,11 +50,12 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className={`nav-menu ${menuOpen ? 'nav-menu-open' : ''}`}>
+      <div className={`righta-section ${menuOpen ? 'mobile-show' : ''}`}>
         <Link to="/about" onClick={() => setMenuOpen(false)}>About Sara</Link>
         <Link to="/back" onClick={() => setMenuOpen(false)}>Background to Injustice</Link>
         <Link to="/story" onClick={() => setMenuOpen(false)}>The Story</Link>
         <Link to="/timeline" onClick={() => setMenuOpen(false)}>Legal Timeline</Link>
+        <Link to="/next-step" onClick={() => setMenuOpen(false)}>Next Steps</Link>
         <Link to="/press" onClick={() => setMenuOpen(false)}>Press</Link>
         <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
       </div>
