@@ -177,23 +177,24 @@ img.about-circle {
 
     img.about-circle {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
         height: 70%;
         border-radius: 10px;
         object-fit: cover;
-        top: 150px;
+        top: 120px;
     }
 
     .about-back p {
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         width: 100%;
-        top: calc(30px + 500px + 125px);
+        top: calc(30px + 500px + 10px);
         max-width: 400px;
+        left:15%;
     }
 
     .about-item p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .rights-section.mobile-show{
