@@ -31,7 +31,7 @@ export default function Back() {
         </Link>
         <div className='backb'>
           <img src={back} className='circle' alt='circle'/>
-          <h4>Sara In Erbil</h4>
+          <p>Sara In Erbil</p>
         </div>
       </div>
       <div className='press-right'>

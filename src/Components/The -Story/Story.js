@@ -30,7 +30,7 @@ export default function Story() {
         </Link>
         <div className='about-back'>
           <img src={story} className='about-circle' alt='circle' />
-          <h4>In Erbil after escape</h4>
+          <p>In Erbil after escape</p>
         </div>
       </div>
       <div className='press-right'>

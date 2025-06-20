@@ -91,13 +91,14 @@
     width: 100%;
 }
 
-.backb h4 {
-    margin-top: calc(72vh - 100px);
+.backb p {
+    margin-top: calc(73vh - 100px);
     text-align: left;
     position: absolute;
     left: 0;
-    margin-left: 0;
+    margin-left: -10px;
     padding-left: 20px;
+    font-size:20px;
 }
 
 img.circle {
@@ -122,6 +123,7 @@ img.circle {
 .press-item {
     display: flex;
     flex-direction: column;
+    width:100%;
     max-width: 100%;
     margin-top: 100px;
 }
@@ -175,10 +177,10 @@ img.circle {
         margin-top: -22px;
     }
 
-    .backb h4 {
-        transform: translateY(15px);
+    .backb p {
+        transform: translateY(-20px);
         text-align: left;
-        margin-left: 0px;
+        margin-left: 6px;
     }
 
     .press-item {
