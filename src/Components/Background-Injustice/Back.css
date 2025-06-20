@@ -178,7 +178,7 @@ img.circle {
     }
 
     .backb p {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
         text-align: left;
         margin-left: 6px;
     }
