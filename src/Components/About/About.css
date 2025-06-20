@@ -183,8 +183,9 @@ img.abouts-circle {
 @media screen and (max-width: 1550px) {
   .abouts-back p {
     max-width: 500px;
-    margin-top: calc(74vh - 100px);
+    margin-top: calc(70vh - 100px);
     left:-15px;
+    font-size:15px;
   }
 
   .abouts-item {
@@ -195,19 +196,23 @@ img.abouts-circle {
     position: absolute;
     width: 100%;
     max-width: 700px;
-    height: 400px;
+    height: 70%;
     border-radius: 10px;
     object-fit: cover;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 25%;
+    transform: translateY(-20%);
   }
 
   .pressa-right{
-    margin-top:100px;
+    margin-top:20px;
+  }
+
+  .abouts-item{
+    width: 100%;
   }
 
   .abouts-item p {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .righta-section.mobile-show {
