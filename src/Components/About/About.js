@@ -22,7 +22,7 @@ export default function About() {
       <div className="hamburgera" onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
-      <div className='heading'>
+      <div className='headinga'>
         <h4>About Sara</h4>
       </div>
       <div className='pressa-left'>

@@ -81,9 +81,9 @@ body {
   font-size: 20px;
 }
 
-.heading {
+.headinga h4{
   position: absolute;
-  top: 20px;
+  top: 150px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -100,25 +100,25 @@ body {
 }
 
 .abouts-back h4 {
-  margin-top: calc(80vh - 100px);
+  margin-top: calc(78vh - 100px);
   text-align: left;
   position: absolute;
   width: 100%;
   max-width: 400px;
-  left: 0;
+  left: -10px;
   transform: none;
-  padding: 0 1rem;
 }
 
 img.abouts-circle {
   position: absolute;
   width: 100%;
-  max-width: 700px;
-  height: auto;
+  max-width: 800px;
+  height: 60%;
   border-radius: 10px;
   object-fit: cover;
   top: 50%;
   transform: translateY(-42%);
+  margin-left:-60px;
 }
 
 .pressa-right {
@@ -126,9 +126,11 @@ img.abouts-circle {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 50%;
-  padding-right: 20px;
+  width: 100%;
+  padding-right: 2px;
   box-sizing: border-box;
+  margin-top:25px;
+  margin-left:-50px;
 }
 
 .abouts-item {
@@ -179,12 +181,19 @@ img.abouts-circle {
 }
 
 @media screen and (max-width: 1550px) {
+
+  .headinga h4{
+    margin-top:-50px;
+  }
+
   .abouts-back h4 {
     max-width: 500px;
+    margin-left:-35px;
+    margin-top: calc(75vh - 100px);
   }
 
   .abouts-item {
-    margin-top: 20px;
+    margin-top: 55px;
   }
 
   img.abouts-circle {
@@ -196,12 +205,12 @@ img.abouts-circle {
     object-fit: cover;
     top: 50%;
     transform: translateY(-50%);
+    margin-left:-90px;
   }
 
   .abouts-item p {
     font-size: 16px;
   }
-
   .righta-section.mobile-show {
     height: 350px;
   }
