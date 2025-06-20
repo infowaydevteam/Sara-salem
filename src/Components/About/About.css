@@ -100,7 +100,6 @@ body {
 }
 
 .abouts-back p {
-  margin-top: calc(78vh - 100px);
   text-align: left;
   position: absolute;
   width: 100%;
@@ -109,6 +108,7 @@ body {
   transform: none;
   padding: 0 1rem;
   font-size:20px;
+  margin-bottom: 3rem;
 }
 
 img.abouts-circle {
@@ -272,6 +272,14 @@ img.abouts-circle {
     text-align: left !important;
     margin-bottom: -30px;
   }
+.abouts-back p {
+    position: relative !important;
+    margin-top: 10px !important;
+    max-width: 100% !important;
+    font-size: 14px !important;
+margin-left: auto;
+margin-bottom: -50px;
+}
 
   .press-right {
     margin-top: 0;

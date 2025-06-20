@@ -205,6 +205,16 @@ img.circle {
         width: 100% !important;
         height: auto !important;
     }
+.backb p {
+    position: static !important;
+    margin-top: -1rem !important;
+    margin-bottom: 2.5rem !important;
+    padding: 0 1rem !important;
+    font-size: 1rem !important;
+    text-align: left !important;
+    margin-left: -260px;
+}
+
 
     .press-container {
         flex-direction: column !important;
