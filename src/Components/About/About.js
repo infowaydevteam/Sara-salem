@@ -30,7 +30,7 @@ export default function About() {
         </Link>
         <div className="about-image-container">
           <img src={about} className="about-image" alt="Sara with children" />
-          <h4>Sara with her children in Washington D.C.</h4>
+          <p>Sara with her children in Washington D.C.</p>
         </div>
       </div>
       <div className="about-right">
