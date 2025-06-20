@@ -82,13 +82,11 @@ export default function Timeline() {
               className={`timeline-event ${index % 2 === 0 ? "left" : "right"}`}
               style={{ animationDelay: `${index * 0.1}s` }}
           >
-              {/* Timeline dot */}
-              <div className="timeline-dot">
+            <div className="timeline-dot">
               <span className="timeline-dot-number">{index + 1}</span>
-              </div>
+            </div>
 
-              {/* Content */}
-              <div className="timeline-content">
+            <div className="timeline-content">
               <div className="timeline-card" onClick={() => toggleExpand(event.id)}>
                   <div className="timeline-card-header">
                   <span className="timeline-year">{event.year}</span>
@@ -105,7 +103,7 @@ export default function Timeline() {
                   </p>
                   )}
               </div>
-              </div>
+            </div>
           </div>
           ))}
       </div>
