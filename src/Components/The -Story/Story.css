@@ -60,21 +60,25 @@
 .about-back {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     width: 100%;
-    position: relative;
     margin-top: 60px;
-}
-
-img.about-circle {
     width: 100%;
     max-width: 500px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
     position: fixed;
-    top: 150px; /* Same as .about-back */
-    left: 250px; /* Same as .about-back */
+    top: 90px; 
+}
+
+img.about-circle {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-back p{
+    text-align: start;
 }
 
 .about-back h4 {
@@ -177,7 +181,7 @@ img.about-circle {
 
     img.about-circle {
         width: 100%;
-        max-width: 400px;
+        /* max-width: 400px; */
         height: 70%;
         border-radius: 10px;
         object-fit: cover;
@@ -222,8 +226,9 @@ img.about-circle {
         position: static !important;
         margin-top: 20px !important;
         font-size: 18px !important;
-        margin-left: -210px;
+        /* margin-left: -210px; */
         margin-bottom: 0px;
+        text-align: start;
     }
     .press-left, .press-right {
         width: 100% !important;

@@ -115,8 +115,8 @@ body {
 img.abouts-circle {
   /* position: absolute; */
   width: 100%;
-  max-width: 700px;
-  height: auto;
+  /* max-width: 700px; */
+  height: 50vh;
   border-radius: 10px;
   object-fit: cover;
   top: 50%;
@@ -214,13 +214,15 @@ img.abouts-circle {
 
 @media screen and (max-width: 768px) {
   .heading {
-    z-index: 0 !important;
+    z-index: 1 !important;
+    margin-top: 0px;
+  
   }
 
   .pressa-container {
     flex-direction: column;
     padding: 5rem 1rem 4rem;
-    gap: 2rem;
+    gap: 0rem;
     min-height: 100vh;
     height: auto;
     overflow-x: hidden;
@@ -257,7 +259,7 @@ img.abouts-circle {
 
   .abouts-back h4 {
     position: static;
-    margin-top: 0px !important;
+    margin-top: -10px !important;
     margin-left: 0 !important;
     padding: 0 1rem;
     height: auto;
