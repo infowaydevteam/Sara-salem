@@ -265,9 +265,9 @@ img.circle {
 
     .press-item {
         padding: 5px !important;
-        width:95% !important;
+        width:98% !important;
         margin-top: 260px !important;
-        margin-left:10px !important;
+        margin-left:5px !important;
     }
 
     .press-item p {
@@ -277,9 +277,9 @@ img.circle {
     .backb p {
         margin-top: 0rem !important;
         margin-bottom: 4rem !important;
-        text-align: center !important;
+        text-align: left !important;
         position: static !important;
-        margin-left: -260px !important;
+        margin-left:-75% !important;
     }
 
     .homeb-button {
