@@ -110,7 +110,7 @@ img.circle {
     max-width: 100%;
 }
 
-.press-right {
+.pressb-right {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -184,7 +184,7 @@ img.circle {
     }
 
     .press-item {
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     .press-item p {
@@ -193,6 +193,10 @@ img.circle {
 
     .rightb-section.mobile-show {
         height: 350px !important;
+    }
+
+    .pressb-right{
+        width:100%;
     }
 }
 
@@ -205,15 +209,14 @@ img.circle {
         width: 100% !important;
         height: auto !important;
     }
-.backb p {
-    position: static !important;
-    margin-top: -1rem !important;
-    margin-bottom: 2.5rem !important;
-    padding: 0 1rem !important;
-    font-size: 1rem !important;
-    text-align: left !important;
-    margin-left: -260px;
-}
+    .backb p {
+        position: static !important;
+        margin-top: -1rem !important;
+        margin-bottom: 2.5rem !important;
+        padding: 0 1rem !important;
+        font-size: 1rem !important;
+        text-align: left !important;
+    }
 
 
     .press-container {
@@ -244,6 +247,7 @@ img.circle {
     img.circle {
         position: relative !important;
         width: 100% !important;
+        max-width:600px !important;
         height: auto !important;
         margin-bottom: 1rem !important;
         transform: translateX(-1px) !important;
@@ -253,27 +257,29 @@ img.circle {
        
     }
 
-    .press-right {
-        width: 100% !important;
+    .pressb-right {
         margin-top: -400px !important;
         padding-right: 0 !important;
+        margin-left: -10px !important;
     }
 
     .press-item {
-        padding: 0.8rem !important;
-        margin-top: 250px !important;
+        padding: 5px !important;
+        width:95% !important;
+        margin-top: 260px !important;
+        margin-left:10px !important;
     }
 
     .press-item p {
         font-size: 0.85rem !important;
     }
 
-    .backb h4 {
+    .backb p {
         margin-top: 0rem !important;
         margin-bottom: 4rem !important;
         text-align: center !important;
         position: static !important;
-        margin-left: -300px !important;
+        margin-left: -260px !important;
     }
 
     .homeb-button {

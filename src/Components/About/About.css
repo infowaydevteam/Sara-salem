@@ -201,7 +201,9 @@ img.abouts-circle {
     /* transform: translateY(-50%); */
   }
 
-
+  .abouts-item{
+    margin-top:2px;
+  }
 
   .abouts-item p {
     font-size: 16px;

@@ -37,14 +37,6 @@ export default function Press() {
       </div>
       
       <div className='presss-right'>
-        <div className='presss-item'>
-          <img src={p1} alt='The New York Times' className='p1' />
-          <p className='presss-description'>
-            How a Virgian Businesswoman escaped her kidnappers in Iraq -- and later returned to finish her work.
-          </p>
-          <a href='https://theintercept.com/2022/04/30/iraq-kidnap-escape-iran-militia/' className='presss-link'>Learn more →</a>
-        </div>
-
         <div className='presss-item1'>
           <img src={Ap} alt="Amsterdam & Partners" className="ap" />
           <p className='presss-description1'>
@@ -73,7 +65,7 @@ export default function Press() {
           <a href='https://amsterdamandpartners.com/press-release-amsterdam-partners-llp-hired-by-prominent-iraqi-investor-sara-saleem/' className='presss-link1'>Learn more →</a>
         </div>
 
-        <div className='presss-item'>
+        <div className='presss-itemo'>
           <img src={ny} alt="New York Post" className="image-two"/>
           <p className='presss-description'>
             Kurdish US citizen claims Iraqi pres Nouri al-Maliki ordered her kidnap and torture: lawsuit
@@ -81,7 +73,7 @@ export default function Press() {
           <a href='https://nypost.com/2025/05/14/world-news/kurdish-us-citizen-claims-iraqi-pres-nouri-al-maliki-ordered-her-kidnap-and-torture-lawsuit/' className='presss-link'>Learn more →</a>
         </div>
 
-        <div className='presss-item'>
+        <div className='presss-itemt'>
           <img src={sn} alt="Sky News Australia" className="tablet1" />
           <p className='presss-description'>
             Sky News Australia - US property developer claims Iraqi president ordered her kidnap, 43-day torture with beatings and electric cords: lawsuit
@@ -167,6 +159,14 @@ export default function Press() {
             I often find myself reflecting on the course my life has taken—especially since my long and ongoing battle against a corrupt judicial system in Iraq began more than a decade ago...
           </p>
           <a href='https://intpolicydigest.org/exposing-zidan-s-corruption-of-iraq-a-personal-account/' className='presss-link'>Learn more →</a>
+        </div>
+
+        <div className='presss-item'>
+          <img src={p1} alt='The New York Times' className='p1' />
+          <p className='presss-description'>
+            How a Virgian Businesswoman escaped her kidnappers in Iraq -- and later returned to finish her work.
+          </p>
+          <a href='https://theintercept.com/2022/04/30/iraq-kidnap-escape-iran-militia/' className='presss-link'>Learn more →</a>
         </div>
 
       </div>

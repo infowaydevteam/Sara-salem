@@ -68,8 +68,8 @@
     height: auto;
     border-radius: 10px;
     object-fit: cover;
-    position: fixed;
     top: 90px; 
+    position:fixed;
 }
 
 img.about-circle {
@@ -85,7 +85,6 @@ img.about-circle {
     text-align: center;
     font-size: 24px;
     width: 100%;
-    position: fixed;
     top: calc(300px + 500px + 20px); /* Image top + image height + margin */
     left: 250px; /* Same as .about-back */
     max-width: 500px;
@@ -180,12 +179,32 @@ img.about-circle {
     }
 
     img.about-circle {
-        width: 100%;
+        width: 80%;
         /* max-width: 400px; */
-        height: 70%;
+        height: 100%;
+        max-height: 450px;
         border-radius: 10px;
         object-fit: cover;
         top: 150px;
+    }
+
+    .press-right{
+        width:50%;
+        padding:2rem;
+        transform: translateY(-235px);
+    }
+
+    .about-item{
+        margin-left:-300px;
+        padding:12rem;
+    }
+
+    .about-back{
+        margin-top: 60px;
+    }
+
+    .about-back p{
+        margin-top:-1px;
     }
 
     .about-back h4 {
@@ -198,6 +217,7 @@ img.about-circle {
 
     .about-item p {
         font-size: 17px;
+        width:150%;
     }
 
     .rights-section.mobile-show{
@@ -222,15 +242,20 @@ img.about-circle {
         padding: 80px 20px 40px !important;
         gap: 40px !important;
     }
-  .about-back p {
+
+    .about-back{
+        transform:translateY(-1400px) !important;
+    }
+
+    .about-back p {
         position: static !important;
-        margin-top: 20px !important;
+        transform: translateY(1310px) !important;
         font-size: 18px !important;
         /* margin-left: -210px; */
         margin-bottom: 0px;
         text-align: start;
     }
-    .press-left, .press-right {
+    .press-left {
         width: 100% !important;
         padding: 0 !important;
     }
@@ -244,16 +269,22 @@ img.about-circle {
         margin-bottom: 40px !important;
     }
 
-    .about-back h4 {
+    .press-right{
+        padding:5rem;
+        transform:translateY(600px);
+    }
+
+    /* .about-back p {
         font-size: 20px !important;
         position: static !important;
         font-weight: bold !important;
         margin-top: 20px !important;
-    }
+    } */
 
     img.about-circle {
+        width:1000% !important;
         max-width: 100% !important;
-        margin-top: 30px !important;
+        transform: translateY(1300px) !important;
         position: static !important;
     }
 
@@ -261,6 +292,7 @@ img.about-circle {
         height: auto !important;
         overflow-y: visible !important;
         padding-top: 0 !important;
+        width:100% !important;
     }
 
     .homes-button {
@@ -302,7 +334,9 @@ img.about-circle {
     }
 
     .about-item{
-        margin-top:300px;
+        margin-top:-220px;
+        margin-left:-120px;
+        padding:2.5rem;
     }
 }
 

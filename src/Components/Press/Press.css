@@ -25,6 +25,11 @@ img.geopolitics-logo {
   width: 200px;
 }
 
+.presss-itemt{
+  margin-top:-100px;
+  margin-bottom:20px;
+}
+
 .homep-button {
   position: fixed;
   top: 20px;
@@ -84,6 +89,7 @@ img.geopolitics-logo {
   font-size: 100px;
   font-weight: 300;
   z-index: 10;
+  font-weight:bold;
 }
 
 img.circles {
@@ -103,14 +109,21 @@ img.circles {
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  transform: translateY(-60px);
+  transform: translateY(-100px);
 }
 
 .presss-item2 {
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  transform: translateY(-100px);
+  transform: translateY(-60px);
+}
+
+.presss-itemo {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  transform: translateY(-150px);
 }
 @media (max-width: 768px) {
   .presss-item2 {
@@ -123,6 +136,7 @@ img.circles {
   display: flex;
   flex-direction: column;
   max-width: 600px;
+  transform: translateY(-10px);
 }
 
 .p1 {
@@ -233,6 +247,14 @@ img.circles {
   .rightp-section.mobilep-show{
     height:350px !important;
   }
+
+  .presss-item1{
+    margin-top:-10px;
+  }
+
+  .presss-itemt{
+    margin-top:-150px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -255,14 +277,19 @@ img.circles {
     margin-bottom: 1.5rem;
     text-align: center;
     transform: translateY(-20px);
+    margin-left:-40px;
   }
 
   .presss-title {
     position: static;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 1rem;
-    padding-top: 16px;
-    transform: translateY(-110px);
+    padding-top: 100px;
+    transform: translate(20px,-150px);
+  }
+
+  .presss-item{
+    margin-top:20px;
   }
 
   img.circles {
@@ -276,6 +303,21 @@ img.circles {
   .presss-right {
     grid-template-columns: 1fr;
     transform: translateY(-150px);
+    gap:10px;
+  }
+
+  .presss-itemo{
+    margin-top:-50px;
+    padding: 0.8rem;
+  }
+
+  .presss-itemt{
+    margin-top:-150px;
+    padding: 0.8rem;
+  }
+
+  .presss-item{
+    transform:translateY(-80px);
   }
 
   .presss-item, .presss-item1 {
@@ -329,6 +371,14 @@ img.circles {
   .rightp-section.mobilep-show a {
     text-align: rightt !important;
     width: 100% !important;
+  }
+
+  .image-one{
+    margin-top:100px;
+  }
+
+  .presss-item1{
+    transform:translateY(-120px);
   }
 }
 .image-one {

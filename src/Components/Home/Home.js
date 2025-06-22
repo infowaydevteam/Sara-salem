@@ -9,7 +9,6 @@ const Home = () => {
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
-  // Update isMobile state on window resize
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
     window.addEventListener('resize', handleResize);

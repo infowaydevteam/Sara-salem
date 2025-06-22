@@ -34,7 +34,7 @@ export default function Back() {
           <p>Sara In Erbil</p>
         </div>
       </div>
-      <div className='press-right'>
+      <div className='pressb-right'>
         <div className='press-item'>
           <p>
             An extraordinary legal storm is brewing in Washington D.C., with far-reaching implications for international law, U.S. foreign policy, and the credibility of Iraq's judicial system. It will also be a new test of strength for President Trump's Administration.
