@@ -161,6 +161,14 @@ export default function Press() {
           <a href='https://intpolicydigest.org/exposing-zidan-s-corruption-of-iraq-a-personal-account/' className='presss-link'>Learn more →</a>
         </div>
 
+        <div className='presss-item'>
+          <img src={p1} alt='The New York Times' className='p1' />
+          <p className='presss-description'>
+            How a Virgian Businesswoman escaped her kidnappers in Iraq -- and later returned to finish her work.
+          </p>
+          <a href='https://theintercept.com/2022/04/30/iraq-kidnap-escape-iran-militia/' className='presss-link'>Learn more →</a>
+        </div>
+
       </div>
 
       <div className={`rightp-section ${menuOpen ? 'mobilep-show' : ''}`}>
